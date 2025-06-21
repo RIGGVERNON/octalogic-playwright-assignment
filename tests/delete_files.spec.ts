@@ -13,7 +13,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('Delete All Files from File Manager', async ({ page }) => {
-  await page.click('text=File Manager');
+  await page.click('text=File manager');
 
   // Select all files
   await page.locator('.MuiCheckbox-root').first().click();
